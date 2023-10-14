@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALFRED ALPHA V0.3</title>
+    <link rel="stylesheet" href="main.css"> <!-- CSS dosyasının html ile bağlanması -->
+    <script src="https://code.responsivevoice.org/responsivevoice.js?key=R1ic6qjE"></script>
+    <!-- Sesli okumanın sağlandığı api kaynağı / sadece bu çalışma için kullanılabilir -->
+</head>
+
+<body>
+    <div id="gelen-yazilar">
+        <br><br>
+        <form action="#" class="gelen-yazilar">
+            <input type="text" id="yazi-input" class="yazi-input"> <!-- Yazıların yazıldığı input alanı -->
+            <button type="submit" class="button" role="button">ALFRED</button> <!-- ALFRED butonu -->
+        </form>
+        <form action="#" id="mikrofon-form" class="mikrofon-form">
+            <button onClick="GetSpeech()"><i class="microphone"></i>🎙️</button> <!-- Mikrofon butonu -->
+        </form>
+        <br><br>
+        <form action="#" id="alfred-cevaplar" class="alfred-cevaplar">
+            MERHABA DÜNYA BEN ALFRED V-ALPHA / ŞU AN İÇİN ÇOK FAZLA BİLGİ SAHİBİ DEĞİLİM. AYRICA NOKTALAMA İŞARETİ
+            İÇEREN SORULARI ANLAMIYORUM <!-- ALFRED'in cevap satırı -->
+        </form>
+        <a href="nesorulur.html"><center><button>❔</button></center></a>
+    </div>
+
+    <script src="app.js"></script> <!-- Javascript dosyasının html ile bağlanması -->
+</body>
+
+</html>
